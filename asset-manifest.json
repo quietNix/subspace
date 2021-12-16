@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/quietNix/subspace/static/css/main.00d3e027.css",
-    "main.js": "/quietNix/subspace/static/js/main.dcb09e8c.js",
-    "static/js/787.b7c9b635.chunk.js": "/quietNix/subspace/static/js/787.b7c9b635.chunk.js",
-    "index.html": "/quietNix/subspace/index.html",
-    "main.00d3e027.css.map": "/quietNix/subspace/static/css/main.00d3e027.css.map",
-    "main.dcb09e8c.js.map": "/quietNix/subspace/static/js/main.dcb09e8c.js.map",
-    "787.b7c9b635.chunk.js.map": "/quietNix/subspace/static/js/787.b7c9b635.chunk.js.map"
+    "main.css": "/subspace/static/css/main.00d3e027.css",
+    "main.js": "/subspace/static/js/main.abfcc6f7.js",
+    "static/js/787.b7c9b635.chunk.js": "/subspace/static/js/787.b7c9b635.chunk.js",
+    "index.html": "/subspace/index.html",
+    "main.00d3e027.css.map": "/subspace/static/css/main.00d3e027.css.map",
+    "main.abfcc6f7.js.map": "/subspace/static/js/main.abfcc6f7.js.map",
+    "787.b7c9b635.chunk.js.map": "/subspace/static/js/787.b7c9b635.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.00d3e027.css",
-    "static/js/main.dcb09e8c.js"
+    "static/js/main.abfcc6f7.js"
   ]
 }
