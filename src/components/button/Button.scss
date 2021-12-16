@@ -1,0 +1,13 @@
+.btn__primary {
+  padding: 0.55em 1.5em;
+  background: var(--color-blue);
+  border: none;
+  border-radius: 0.3em;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+
+  &:hover {
+    background-color: var(--color-blue-hover);
+  }
+}

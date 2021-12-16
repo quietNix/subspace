@@ -1,0 +1,44 @@
+@import "../../sass/abstract/mixins";
+
+.perks{
+    flex: 2;
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: calc(max(4vw, 2rem)) 0;
+    text-align: center;
+    background-color: var(--color-grey-white);
+    border-radius: 10px;
+
+    &-services{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 3.5vw;
+        gap: calc(max(1.5vw, 1.5rem));
+        flex-wrap: wrap;
+        &__img{
+            border-radius: 8px;
+            width: calc(max(0.7rem + 0.3vw, 0.3rem + 0.7vw) * 5);
+            height: calc(max(0.7rem + 0.3vw, 0.3rem + 0.7vw) * 5);
+        }
+    }
+
+}
+
+@include respond(phone) {
+  .perks{
+      &-services{
+          padding: 0 .5vw;
+      }
+  }
+}
+
+@include respond(big-desktop){
+    .perks{
+        &-services{
+            padding: 0 6vw;
+        }
+    }
+}
